@@ -184,7 +184,7 @@
         <pose>0 0.08 0.023 -1.57 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.033</radius>
+            <radius>0.099</radius>
             <length>0.018</length>
           </cylinder>
         </geometry>
@@ -217,7 +217,7 @@
         <geometry>
           <mesh>
             <uri>model://turtlebot3_common/meshes/tire.dae</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.003 0.003 0.003</scale>
           </mesh>
         </geometry>
       </visual>
@@ -242,7 +242,7 @@
         <pose>0.0 -0.08 0.023 -1.57 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>0.033</radius>
+            <radius>0.099</radius>
             <length>0.018</length>
           </cylinder>
         </geometry>
@@ -275,7 +275,7 @@
         <geometry>
           <mesh>
             <uri>model://turtlebot3_common/meshes/tire.dae</uri>
-            <scale>0.001 0.001 0.001</scale>
+            <scale>0.003 0.003 0.003</scale>
           </mesh>
         </geometry>
       </visual>
@@ -297,7 +297,7 @@
       <collision name='collision'>
         <geometry>
           <sphere>
-            <radius>0.005000</radius>
+            <radius>0.015000</radius>
           </sphere>
         </geometry>
         <surface>
